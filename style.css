@@ -1,0 +1,219 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    border: 4px solid black;
+    padding: 20px;
+    transform: translate(43%);
+    margin: 100px 0;
+}
+
+.header-box {
+    display: inline;
+}
+
+.header-box h1{
+    font-size: 35px;
+    padding: 40px 0 30px 0;
+    display: flex;
+    justify-content: left;
+}
+
+.form-input {
+    display: grid;
+    justify-content: left;
+    color: 000000;
+    margin: 30px 0;
+}
+
+.name {
+    padding: 0;
+    margin: 20px 0;
+    
+}
+
+.in-name {
+    width: 500px;
+}
+
+.label-name {
+    display: flex;
+    justify-content: left;
+    margin: -18px;
+    margin-left: 0;
+}
+
+.email-from {
+    display: flex;
+    justify-content: left;
+    gap: 6rem;
+}
+
+.email-date {
+    display: flex;
+    justify-content: left;
+    margin: -18px;
+    margin-left: 0;
+}
+
+.efdz {
+    width: 300px;
+}
+
+.ashw {
+    display: flex;
+    justify-content: left;
+    gap: 2rem;
+}
+
+.cehb {
+   display: flex;
+   justify-content: left;
+   gap: 2rem;
+}
+
+.date-zodiac {
+    display: flex;
+   justify-content: left;
+   gap: 6rem;
+}
+
+.status {
+    display: flex;
+   justify-content: space-around;
+   gap: 1rem;
+   padding-bottom: 20px;
+}
+
+.artists-sogs {
+    display: flex;
+    justify-content: space-around;
+    gap: 5rem;
+    
+}
+
+.movies-facts {
+    display: flex;
+    justify-content: left;
+    gap: 5rem;
+}
+
+.ques-1 {
+    display: flex;
+    justify-content: left;
+    gap: 2rem;
+}
+
+.ques-2 {
+    display: flex;
+    justify-content: left;
+    gap: 2rem;
+}
+
+.ques-3 {
+    display: flex;
+    justify-content: left;
+    gap: 2rem;
+}
+
+.ques-4 {
+    display: flex;
+    justify-content: left;
+    gap: 2rem;
+}
+
+
+.media-photo {
+    display: flex;
+    justify-content: left;
+    gap: 2rem;
+    margin-top: 30px;
+}
+
+.photo .attached-photo {
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    margin-left: 200px;
+    text-align: center;
+}
+
+.attached-photo p {
+    margin-top: 70px;
+}
+
+.e-signature {
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+    margin-top: 60px;
+}
+
+.favorite {
+    width: 300px;
+    display: flex;
+    justify-content: left;
+    margin: 5px;
+}
+
+input {
+    padding: 3px;
+    border: 2px solid black;
+}
+
+
+label {
+        display: flex;
+        justify-content: left;
+        margin: -18px;
+        margin-left: 0;
+}
+   
+.info {
+    width: 165px;
+}
+
+.checked {
+    width: 20px;
+    border-radius: 30px;
+    margin-top: -15px;
+}
+
+.icons {
+    display: flex;
+    margin: 10px;
+}
+
+button {
+    padding: 4px 10px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+    color: blueviolet;
+}
+
+.file {
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+
+input[type=file] {
+    cursor: pointer;
+    color: blueviolet;
+    
+}
